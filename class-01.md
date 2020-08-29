@@ -203,7 +203,27 @@ Next, break it into a series of tasks that have to be performed in order to achi
 ```
 - flowcharts will be helpful if you use labels like generic steps, events, inoput or output, and decisions
 ***Pages 24-43***
+*Objects and properties in computing*
+- programmers often label things as objects with a set of properties which each have a *name* and a *value*
+*Events*
+- you can make the computer interact with the objects and its characteristics by creating events
+    - "When a specific event happens, that event can be used to trigger a specific section of the code."
+*Methods*
+- contains a set of instructions that represent a task
+- It is typical for an object to possess...
+    * Event - happens when ? - method called ? -
+    
+    * Method name ? - what it does? -
 
+    * Properties 
+
+- Web browsers are built using these objects and their incorporated models
+
+* How a browser sees a web page*
+1. receive a page as html code
+2. create a model of the page and stores it in memory
+3. use a rendering engine to show the page on the screen
+    - all major browsers utilize JS to translate instructions for the computer
 
 
 
