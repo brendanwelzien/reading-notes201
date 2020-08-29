@@ -1,6 +1,9 @@
 # ***HTML***
 ## Introduction (pp.2-11)
-
+*How People Access the Web*
+- people access websites using a software known as a web browser
+- there are web servers which host the website itself
+- there are devices that screen read the website for the user
 ## HTML Chapter 1: “Structure” (pp.12-39)
 * To start a webpage, go to *textedit* and begin
 
@@ -9,6 +12,10 @@ Term | Usage
 <body> </body> | everything in this element is shown inside main browser
 <head> </head> | before body element, contains about and <title>
 <title> </title> | included with <head>
+
+* structuring the website
+- you can use the  h1 - h6 commands to indicate the importance of the words such as into headings (this describes the webpage)
+
 
 ## HTML Chapter 8: “Extra Markup” (p.176-199)
 * due to several versions of html, each web page should start with (!DOCTYPE html>) to tell the browser which version to use
@@ -80,7 +87,7 @@ London E2 7DP</p>
 </section>
 ```
 
-* <hgroup> </hgroup> is to group together a set of one or more <h1> to <h6> elements so they are one single heading
+* <hgroup> </hgroup> is to group together a set of one or more <h1> -- <h6> elements so they are one single heading
 
 * <figure> or <figcaption> for images, videos, graphs, diagrams, etc in referencing them
 
