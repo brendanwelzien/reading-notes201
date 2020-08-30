@@ -23,9 +23,10 @@ Term | Usage
 * if you want to add a comment to code it is <!-- comment here -->
 * ID attributes is allows for style and no two elements can have the same attribute
 * class attribute is used to identify several elements
+    * this distinguishes importance between elements
 * block elements start a new line including h1, p, ul, li
 * inline elements for keep words organized? a, b, em, img
-* grouping text and elements in a block is div.
+* grouping text and elements in a block is the div command
 
 ```bash
 <div id="header">
@@ -148,6 +149,11 @@ card sorting | placing each piece of info on a paper then organizing into relate
 
 *grouping and similarity*
 - proximity, closure, continuance, white space, color, borders
+    - *proximity* = items grouped close together like a line
+    - *closure* = different grouping of element sizes scrunched together
+    - *continuance* = elements that are placed like a curved line
+    - *white space* = place related items together then giving a gap in between other item groups
+
 
 # ***Javascript***
 
