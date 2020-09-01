@@ -2,40 +2,56 @@
 <html>
 
 <head>
-
-<title> Brendan's Website</title>
-<style>
-h1 {
-    color:magenta;
-    border-style:ridge;
-    border-spacing:20px;
-}
-</style>
+<title> Brendan's Website </title>
+ 
+    <style>
+        h1 {
+            color:magenta;
+            border-style:ridge;
+            border-spacing:20px;
+            text-align: center;
+            background-color:black;
+        }
+    </style>
 </head>
 
 <body>
-<h1> Subject of my website</h1>
-<p> put your text here, information</p>
+<header> 
+<main>
+<h1> Class 1 Lab </h1>
+</main>
+</header>
 
-<ul>
-<li> this is the list item</li>
-</ul>
-
-<ol>
-<li style="color:magenta"> this is an ordered list item </li>
-</ol>
+    <p style="color:aquamarine;border-style:ridge;background-color:black">
+Question 1: Hello stranger, please tell me your name!
+    </p>
+    <p style="color:coral;border-style:ridge;background-color:yellow">
+Question 2: What did you eat for breakfast?
+    </p>
+    <p style="color:purple;border-style:ridge;background-color:blanchedalmond">
+Question 3: If you could travel anywhere right now where would it be?
+    </p>
+    <p style="color:yellow;border-style:ridge;background-color:seagreen">
+Question 4: What time do you go to sleep on the weekends?
+    </p>
 
 <footer>
-
+Contact me @ xxx.xxx.xxxx or xyz@gmail.com
 </footer>
 <script>
-alert('Welcome to my website!');
-var user= 'Brendan';
-console.log(user);
- user = prompt('What is your name?');
- console.log("What is up " + user);
-
-</script>
+    var question1 = prompt('Hello stranger, please tell me your name!');
+            console.log(question1);
+            alert('What a beautiful name!');
+    var question2 = prompt('What did you eat for breakfast?');
+            console.log(question2);
+            alert('Dang you eating good!!');
+    var question3 = prompt('If you could travel anywhere right now where would it be?');
+            console.log(question3);
+            alert('Good choice, I would go there too.');
+    var question4 = prompt('What time do you go to sleep on the weekends?');
+            console.log(question4);
+            alert('I wish I could stay up that late... Sigh.');
+            alert('Greetings '+ question1 +', it is very nice to meet you. I wish I had eaten '+ question2 +' for breakfast as that sounds insanely good. It would taste even better in '+ question3+'! You only stay up until '+ question4+'?!? For me, I never sleep. Sleep is my enemy. Anyways, welcome in...');
+ </script>
 </body>
-
 </html>
