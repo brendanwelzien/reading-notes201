@@ -1,0 +1,12 @@
+#site-title {
+    color:orange;
+}
+.text{
+    color:red;
+}
+main{
+    height:calc(50px);
+}
+body{
+    height:calc(100-vh-100px);
+}

@@ -170,7 +170,7 @@ for (var i = 0; i <10; i++) {
 - ***Initializaton***
     - creates a variable and set it to 0. This variable is commonly called i and acts as the counter
     - var i = 0;
-    - the variable is only created the first time when the loop runs, may be declard before the condition
+    - the variable is only created the first time when the loop runs, may be declared before the condition
 - ***Condition***
     - the loop should continue to run until the counter reaches a specified number
     - i <10 ;
@@ -184,5 +184,136 @@ for (var i = 0; i <10; i++) {
     - one is added using (++) operator
     - read as 'take the variable i, and add one using the ++ operator"
     - you can use (--) to count downward as well
+
+## Lecture Notes
+### Fundamentals
+- HTML, CSS, and JS are browser friendly
+- a tag refers to name of element where element represents the whole block of which content is used by the element
+    - h1 /h1 vs. h1 this is the content /h1
+- HTML attributes
+    - modify the contents of a tag
+    - href and src are examples
+- <script src=""> </script> is used for external files of data like JS or CSS
+ex. of an ID / class use
+-   use strigns to identify /group elements together
+-   <h1 id="Bananas-H"> History of Bananas </h1>
+    - IDs should only be applied to *one element*
+    - Classes shold be used to group like elements together such as p or the h2's throughout the file
+## CSS
+-   we use selectors to apply styling specifications to our elements
+- selectors can select elements using many different methods
+- by tag name: p{} h1{}
+- by id / class : 
+    - id: #id-name {}
+    -  class : .class-name{}
+    - cs properties: all things we want to style elements with
+        - syntax: property-name:propertyvalue;
+
+- Using the style attribute
+    - values still must follow syntax for CSS properties
+    `<p style="color:blue;"> content </p>`
+
+- link using a link element
+    -  href attribute that points to location of css file
+    - if link is pointing to css, we must specify that relation is a style sheet
+    - `<link href="some-style.css" rel= "stylesheet"/>`
+    - notice that the link tag is self closing!
+    - this typically goes in the head element (meta data)
+
+
+
+style.css
+
+```css
+
+/* selector */
+h1{
+/* properties */
+color:blue;
+background-color:tangerine;
+}
+#Bananas-H{
+
+}
+.item{
+
+}
+```
+
+## Javascript
+- types of data that JS can handle
+1. string : sequence of natural language characters
+    a. 'here is a string'
+2. number: quantitative value represented by symbol
+    a. 0 , 54, 12.14, 0.004, 1,234 is not a number
+3. boolean: binary true vs false
+    a. true
+    b. false
+4. null
+5. undefined
+
+- conditional logic
+    - operations / js statements that will be executed upon a condition
+    - run statement in a specified code block whether something is true or false (truthy / falsey)
+
+```js
+if (some condition) {
+    //execute/do these statements
+} /* if we need an inverse operation */ else {
+    // execute/do some other statements
+}
+
+// we can also use else if
+
+if (true) {
+    console.log(true);
+} else if (false){
+    console.log(null);
+}
+
+//conditional logic that can only use one value, but has ,any different conditions
+
+//when these catch, all other statements will run unless you add a 'break'
+var user = 'Jacob';
+switch(user)
+    {case'Jacob':
+console.log('Jacob is the user');
+break;
+    case 'Chance':
+console.log('Oh, it is Chance');
+}
+
+- logical operators
+
+if (true && false) {
+
+} else {
+    console.log('Our statement is falsey');
+}
+
+if (true || false) {
+    console.log('Our statement is truthy');
+} else {
+
+}
+
+// logical negation
+
+if (!false) {
+    console.log('we flipped our boolean');
+}
+if (true != false) {
+    console.log('reverses meaning of boolean')
+}
+```
+
+```js
+- short circuit value:
+
+var string = false && false
+// JS evaluates left to right, the first operand must be true or it will short-circuit and become false
+
+```
+
 
 [<= Back](README.md)
