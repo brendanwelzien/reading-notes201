@@ -13,7 +13,7 @@ I am a student for Code Fellows and on track to becoming a software developer.
 ## Table of Contents
 - [Class 1](class-01.md)
 - [Class 2](class-02.md)
-- [Class]()
+- [Class]()(class-03.md)
 - [Class]()
 - [Class]()
 - [Class]()
