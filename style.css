@@ -10,3 +10,8 @@ main{
 body{
     height:calc(100-vh-100px);
 }
+
+div {margin:25px 10px;
+    border: 10px rebeccapurple solid;
+    padding: 20px 10px;
+}

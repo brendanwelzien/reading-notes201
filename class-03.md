@@ -253,5 +253,148 @@ for (var i = 0; i <10; i++) {
     - one is added using (++) operator
     - read as 'take the variable i, and add one using the ++ operator"
     - you can use (--) to count downward as well
-    
+
+# Lecture Notes
+
+## Javascript Arrays
+
+- What is an array?
+    - a bucket of other data types
+    - typically, we like to store similar things
+- How can we access the data in the array?
+    - uses an index 
+    - an index is an item within the array (numerical value and correlates to position in the array)
+```js
+
+var string1 = 'my string';
+var string2= 'another string';
+
+// an empty array
+var myArray= [];
+
+var myArray= [string1, string2];
+myArray.length; // let's us know the length of index
+console.log(myArray)
+
+// ['my string','another string'];
+
+// accessing the first position in the array;
+myArray[0];
+
+// Move one memory unit position to get to 2nd item in array;
+myArray[1];
+
+// if we want to add to the array, what do we do?
+myArray[myArray.length]= '';
+// since there is a position 0 for index, there is a space = to the amount of array items, so you can use this to add.. 3 items would leave position #3 open because the positions would be 0, 1, and 2-- this allows us to add item 4
+
+myArray.push('');
+// this also adds something to an array
+
+
+// this removes the last item from an array
+myArray.pop();
+
+```
+## Running Code Multiple Loops
+
+- What is a loop?
+- running a specified code block, as long as a condition remains true
+- *for* loops take 3 specific statements
+    - initialization of something to check within the loop
+    - comparison (condition involving our initialized thing)
+    - operation to perform on our initialized thing
+
+```js
+// we start with a for keyword signature
+for (var i= 3; i > 0; i = i - 1;) {
+console.log(i); //shows 3, 2, 1,
+}
+
+```
+- var names = ['apple', 'beet', 'cherry'];
+```js
+for (var i = names.length; i > 0, i = i -1){
+    console.log(names[i - 1]);
+}
+
+for (var = 0; i <= 1;i = i + 1 ){
+
+}
+
+```
+- *while* loop
+    - functions just like a conditional statement, but repeats operations until statement is false
+
+- truthy values and falsey values
+    - truthy: true / 'string' / [] / {} / 1 (any numb above zero)
+    - falsey: false / '' / 0 / undefined / null /
+```js
+var bool = [3, 2, 1];
+
+while(bool.length) {
+    console.log(bool.pop()); // this will remove items off the array and you log it
+}
+// this code will always run at least once
+names = [];
+do {
+console.log('this should execute at least once');
+} while (names.length);
+```
+
+## CSS Box Model
+- understanding the layout properties of elements in a browser
+- all elements in the browser are boxes
+    - each box can be provided values for 3 discrete properties (from most outside layer to inside)
+    - Margin
+        - refers to any space between the border and any other element surrounding our box
+    - Border
+        - by default, a thin line that sits between our margin and padding
+    - Padding
+        - any space separating the content from its border, this makes our box bigger
+    - the content
+
+
+
+```js
+//this is whatever the user's answer is
+var question1 = prompt('Name a bird?');
+var answers1= ['eagle', 'raven', 'robin', 'gold finch', 'crow'];
+
+// question 1 === 'Raven';
+
+ if (question1.toLowerCase() === answers1[1]) {
+     alert('Correct!');
+ }
+// this is good for one problem, but we wanna cover all answers by using a loop
+//answers.length represents all the properties in array and there is 5 so we minus 1 since index goes from 0 - 4 only.
+for (var i = 0; i < answers1.length - 1; i ++) {
+if (question1.toLowerCase() === answers[i]) {
+    alert('Correct!');
+    } 
+}
+if ()
+//we have to inform incorrect outside of the for loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  [<= Back](README.md)
