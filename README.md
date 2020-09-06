@@ -16,7 +16,7 @@ I am a student for Code Fellows and on track to becoming a software developer.
 - [Class 3](class-03.md)
 - [Class 4](class-04.md)
 - [Class 5](class-05.md)
-- [Class]()
+- [Class 6](class-06.md)
 - [Class]()
 - [Class]()
 - [Class]()
