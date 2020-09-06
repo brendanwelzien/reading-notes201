@@ -266,4 +266,6 @@ var removeEl = document.getElementByTagName('li')[3]; // the element to remove
 var containerEl = removeEl.parentNode; // its containing element
 containerEl.removeChild(removeEl); // removes the element
 ```
+
+- very useful in removing element(s)
 [<=Back](README.md)
