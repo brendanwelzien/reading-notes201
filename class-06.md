@@ -2,7 +2,7 @@
 *Some commonly seen problems*
     - learning a new technology
     - naming things
-    - tseting your code
+    - setting your code
     - debugging
     - fixing bugs
     - making software maintainable

@@ -161,7 +161,7 @@ use property *font-size* you can use pixels, %, or ems
 - *letter-spacing* and *word-spacing* uses the em units 
     - you can also align using *text-align* and use left, right, center, and/or justify (every line except last takes full width of containing box)
 *Vertical Alignment*
-- the *vetical-align* tag is **not** intended for vertically aligning text in middle of block elements
+- the *vertical-align* tag is **not** intended for vertically aligning text in middle of block elements
     - it is more commonly used with inline elements such as img, em, or strong
 ```bash
 vertical-align:
