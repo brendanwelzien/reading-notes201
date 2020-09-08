@@ -220,3 +220,137 @@ Math.random() always picks between 0 and 1
 - multiply by 10 to choose between numbers 0 and 10
 
 - math.floor(math.random * 10); this makes it without decimals
+
+## Class 7 Constructor Functinos
+
+- write a function that takes 0 parameters and returns 2 strings
+```js
+function strings() {
+return['1string1','string2'];
+}
+
+```
+
+- write a function that takes this function as a parameter, and returns a boolean saying whether or not the function returns two strings
+```js
+function returnStrings(strings()) {
+    if (strings() === 'true'){
+       return true;
+    } else {
+        return false;
+    }    
+}
+
+```
+
+## Constructor Function -- returns an object
+- looks just like a normal function, the only difference is that a constructor function implicitly returns a new object
+
+```js
+// this is valid, but leads to complications later
+function createStore(){
+    return{
+        name: 'store',
+        speak: function() {
+            console.log(this.name);
+        }
+    }
+}
+
+//constructor
+function createStore(){
+this.name = 'store',
+    this.speak = function(){
+    console.log(this.name);
+    }
+}
+
+var Seattle = new Store();
+console.log(seattle) // {name: 'store', speak: [function...]}
+
+// lets recreate our lab stores using constructor functions
+
+function createStore(name, minCust, maxCust) {
+    this.storename = name,
+    this.minCust = minCust,
+    this.maxCust = maxCust;
+}
+// new keyword activates constructor function capabilities
+var seattle = new createStore('Seattle, 20, 60);
+console.log(seattle) // {storename: 'seattle', minCust: 20...} 
+// using the constructor function we have created the Seattle object
+
+
+// Methods on constructors
+
+//Prototype
+//this syntax ensures that 'this' will always reference the object that was created
+createStore.prototype.speak = function(){
+    console.log(this.name);
+}
+
+// writing functions and methods once, then use prototype to apply to all objects
+
+
+```
+
+## HTML Tables
+- display rows and columns in an HTML document
+    - `<table> </table>` parent element for all of our table
+    -`<tr></tr>` the table row, which should contain all the cell data for a given row
+    - `<td></td>` a table cell, makes up for block spaces in a table row
+    - `<th></th>` gives us a bold, meant to replace a `td`
+
+```html 3 columns and 3 rows
+<table>
+    <tbody>
+<tr>
+    <td>
+    Cell one
+    </td>
+    <td>
+    cell two
+    </td>
+    <td>
+    cell three
+    </td>
+</tr>
+
+<tr>
+    <td>
+    Cell one
+    </td>
+    <td>
+    cell two
+    </td>
+    <td>
+    cell three
+    </td>
+</tr>
+
+<tr>
+    <td>
+    Cell one
+    </td>
+    <td>
+    cell two
+    </td>
+    <td>
+    cell three
+    </td>
+</tr>
+</tbody>
+</table>
+```
+```css
+table{
+    border:thin solid black;
+}
+tr {
+    border: thick solid navy;
+}
+td {
+    border: thin solid gray;
+}
+```
+

@@ -85,4 +85,7 @@ elPool.className = 'Pool: ' + hotel.pool;
 `this.name = name;` *use this.*
 
 - the *this* keyword is commonly used inside functions and objects. It always refers to one object, usually the object in which the function operates
+
+- Arrays are objects, they hold a set of key/vaue pairs, but the key for each value is its index number
+
 [<=Back](README.md)
