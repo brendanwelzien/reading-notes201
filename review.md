@@ -354,3 +354,37 @@ td {
 }
 ```
 
+# Constructor Function Exercise
+- create pokemon constructor
+    - 4 properties
+        - name : string
+        - health : number
+        - attack : number
+        - defense : number
+
+```js 
+                   // parameters
+function Pokemon(name, health, attack, defense) = {
+    this.name = name;
+    this.health = health;
+    this.attack = attack;
+    this.defense = defense;
+}
+var pichu = new Pokemon('Pichu', 20, 40, 15); //arguments
+var squishy = new Pokemon('Squishy', 100, 60, 35) // arguments
+
+function PokemonBattle(pokemon1,pokemon2){
+    while (pokemon1.health > 0 || pokemon2.health > 0){
+        pokemon1.health -= pokemon2.attack
+    }
+}
+PokemonBattle(pichu, squishy);
+
+Pokemon.prototype.
+
+
+var pokedex = [pichu, squishy]
+pokedex[0] // {pokemon}
+
+console.log(pichu) // {name: 'Pichu', health: 20, attack: 40, defense: 15}
+```
