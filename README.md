@@ -20,7 +20,7 @@ I am a student for Code Fellows and on track to becoming a software developer.
 - [Class 7](class-07.md)
 - [Class 8](class-08.md)
 - [Class 9](class-09.md)
-- [Class]()
+- [Class 10](class-10.md)
 - [Class]()
 - [Class]()
 - [Class]()

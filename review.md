@@ -388,3 +388,22 @@ pokedex[0] // {pokemon}
 
 console.log(pichu) // {name: 'Pichu', health: 20, attack: 40, defense: 15}
 ```
+
+prompt('what is your pokemon name?')
+prompt('how much health do they have?')
+prompt('..');
+use the prompt to create and display pokemon on a web page
+
+var health= prompt('how much health do they have?')
+var pokemonName = prompt ('What is your pokemon name'?);
+
+do (prompt('what is your pokemon name?'){
+    while (prompt(how much health do they have?');
+    } 
+    if { health>=0;
+            console.log(hea)
+        
+    }
+
+
+## WireFraming
