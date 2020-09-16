@@ -406,5 +406,40 @@ do (prompt('what is your pokemon name?'){
     }
 
 
-## Vote Tracking
-- 
+## Persisting our Data
+- preventing our data from being reset on page load, or page refreshes
+    - we can leverage a browser called *localstorage*, to store data for later use
+    - done by a CMS or database usually
+        - difficult to implement
+        - localstorage is quick and simple if you are in the browser
+            - less secure and should be used sparingly
+
+- everything that is saved in LS is within your file system
+    - LS manages its contents for you
+    - URL basis (every URL has its own slot in LS)
+    - everything stored in /path/to/browser/sourcecode
+
+```js
+// global thing in browser
+document.getElementById('some-id');
+
+
+// local storage in browser
+
+localStorage.setItem(); //places data inside LS
+localStorage.getItem(); //retrieves data from inside LS
+localStorage.removeItem(); //removes from LS
+localStorage.clear(); // clears all LS
+
+
+// everything in LS is done via key value pairs
+// localstorage can only store strings,
+// storing objects requires interpretation into strings
+localStorage.setItem('key','value');
+localStorage.getItem('key');
+
+localStorage.removeItem('key');
+localStorage.clear();
+
+// ^^ these are the parameters when using 
+```

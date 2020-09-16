@@ -23,5 +23,5 @@ I am a student for Code Fellows and on track to becoming a software developer.
 - [Class 10](class-10.md)
 - [Class 11](class-11.md)
 - [Class 12](class-12.md)
-- [Class]()
-- [Class]()
+- [Class 13](class-13.md)
+- [Class 14](class-14.md)
